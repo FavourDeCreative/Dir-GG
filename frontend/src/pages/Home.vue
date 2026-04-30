@@ -5,10 +5,8 @@ import Portifolio from "../components/Portifolio.vue"
 import Contact  from "../components/Contact.vue"
 </script>
 <template>
-    <div>
         <Hero />
         <About />
         <Portifolio />
         <Contact />
-        </div>
 </template>

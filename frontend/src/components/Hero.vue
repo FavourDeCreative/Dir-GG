@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section class="hero" id="hero">
     <!-- Background Image 
     <div class="image-wrapper">
       <div 
@@ -110,14 +110,14 @@ onMounted(() => {
   }, '-=0.2')
   
   // Slow zoom effect on background image
-  gsap.to('.hero-image', {
-    scale: 1.1,
-    duration: 20,
-    repeat: -1,
-    yoyo: true,
-    ease: 'none',
-    delay: 1
-  })
+  // gsap.to('.hero-image', {
+  //   scale: 1.1,
+  //   duration: 20,
+  //   repeat: -1,
+  //   yoyo: true,
+  //   ease: 'none',
+  //   delay: 1
+  // })
 })
 </script>
 
