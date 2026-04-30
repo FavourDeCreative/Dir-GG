@@ -24,7 +24,7 @@
       </div>
 
       <ul class="nav-links">
-        <li class="link"><a href="#work" class="nav">Home</a></li>
+        <li class="link"><a href="/" class="nav">Home</a></li>
         <li class="link"><a href="#about" class="nav">About</a></li>
         <li class="link"><a href="#portfolio" class="nav">Portfolio</a></li>
         <li class="link"><a href="#contact" class="nav">Contact</a></li>

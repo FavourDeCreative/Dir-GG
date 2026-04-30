@@ -29,7 +29,7 @@
       </p>
       
       <div class="hero-buttons">
-        <a href="#portifolio" class="btn btn-primary">
+        <a href="#portfolio" class="btn btn-primary">
           <i class='bx bx-play-circle'></i>
           Watch Showreel
         </a>
