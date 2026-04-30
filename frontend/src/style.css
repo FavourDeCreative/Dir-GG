@@ -302,6 +302,11 @@ body::before {
 .skill-tag {
   font-size: 0.75rem;
 }
+
+
+section{
+  padding: 50px 0;
+}
 /* ==================== HERO SECTION STYLES ==================== */
 .hero {
   position: relative;
