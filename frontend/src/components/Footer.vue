@@ -9,24 +9,40 @@
             <span class="footer-logo-sub">cinematography</span>
           </div>
           <p class="footer-description">
-            Visual storytelling through the lens — creating cinematic experiences 
-            that transcend ordinary perception.
+            Visual storytelling through the lens — creating cinematic
+            experiences that transcend ordinary perception.
           </p>
           <div class="footer-social">
-            <a href="https://www.instagram.com/gbengagomes/" class="social-link" target="_blank">
-              <i class='bx bxl-instagram'></i>
+            <a
+              href="https://www.instagram.com/gbengagomes/"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="bx bxl-instagram"></i>
             </a>
             <a href="#" class="social-link" target="_blank">
-              <i class='bx bxl-youtube'></i>
+              <i class="bx bxl-youtube"></i>
             </a>
-            <a href="https://www.tiktok.com/@dir.gg" class="social-link" target="_blank">
-              <i class='bx bxl-tiktok'></i>
+            <a
+              href="https://www.tiktok.com/@dir.gg"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="bx bxl-tiktok"></i>
             </a>
-            <a href="https://ng.linkedin.com/in/gomes-gbenga-baab70b7" class="social-link" target="_blank">
-              <i class='bx bxl-linkedin'></i>
+            <a
+              href="https://ng.linkedin.com/in/gomes-gbenga-baab70b7"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="bx bxl-linkedin"></i>
             </a>
-            <a href="https://www.facebook.com/gbengagomes/" class="social-link" target="_blank">
-              <i class='bx bxl-facebook'></i>
+            <a
+              href="https://www.facebook.com/gbengagomes/"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="bx bxl-facebook"></i>
             </a>
           </div>
         </div>
@@ -56,15 +72,18 @@
             <h3>Contact</h3>
             <ul>
               <li>
-                <i class='bx bx-map'></i>
-                <span>12 Idowu street, Karaole Estate,<br />College road, Ogba</span>
+                <i class="bx bx-map"></i>
+                <span
+                  >12 Idowu street, Karaole Estate,<br />College road,
+                  Ogba</span
+                >
               </li>
               <li>
-                <i class='bx bx-envelope'></i>
+                <i class="bx bx-envelope"></i>
                 <a href="mailto:Gbengagomes@gmail.com">Gbengagomes@gmail.com</a>
               </li>
               <li>
-                <i class='bx bx-phone-call'></i>
+                <i class="bx bx-phone-call"></i>
                 <a href="tel:+2348063325268">+234 806 332 5268</a>
               </li>
             </ul>
@@ -78,13 +97,21 @@
       <!-- Bottom Section -->
       <div class="footer-bottom">
         <div class="copyright">
-          <p>&copy; {{ currentYear }} DIR GG Cinematography. All rights reserved.</p>
+          <p>
+            &copy; {{ currentYear }} DIR GG Cinematography. All rights reserved.
+          </p>
         </div>
         <div class="footer-credit">
-          <p>Designed with <i class='bx bx-heart'></i> for cinematic excellence by <a href="https://www.tiktok.com/@code_with_favour?is_from_webapp=1&sender_device=pc">Code With Favour</a></p>
+          <p>
+            Designed with <i class="bx bx-heart"></i> for cinematic excellence
+            by
+            <a href="https://www.tiktok.com/@favour_de_creative" target="_blank"
+              >Code With Favour</a
+            >
+          </p>
         </div>
         <button class="back-to-top" @click="scrollToTop">
-          <i class='bx bx-up-arrow-alt'></i>
+          <i class="bx bx-up-arrow-alt"></i>
           <span>Back to Top</span>
         </button>
       </div>
@@ -96,61 +123,71 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { ref, onMounted } from "vue";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
-const currentYear = ref(new Date().getFullYear())
+const currentYear = ref(new Date().getFullYear());
 
 const scrollToTop = () => {
   gsap.to(window, {
     duration: 1,
     scrollTo: 0,
-    ease: "power3.inOut"
-  })
-}
+    ease: "power3.inOut",
+  });
+};
 
 onMounted(() => {
   // GSAP Animation for footer
   const tl = gsap.timeline({
     scrollTrigger: {
-      trigger: '.footer',
-      start: 'top 90%',
-      end: 'bottom 20%',
-      toggleActions: 'play none none reverse'
-    }
-  })
-  
-  tl.from('.footer-brand', {
+      trigger: ".footer",
+      start: "top 90%",
+      end: "bottom 20%",
+      toggleActions: "play none none reverse",
+    },
+  });
+
+  tl.from(".footer-brand", {
     opacity: 0,
     y: 30,
     duration: 0.8,
-    ease: 'power3.out'
+    ease: "power3.out",
   })
-  .from('.links-column', {
-    opacity: 0,
-    y: 30,
-    stagger: 0.15,
-    duration: 0.6,
-    ease: 'power2.out'
-  }, '-=0.4')
-  .from('.footer-divider', {
-    width: 0,
-    duration: 0.8,
-    ease: 'power2.out'
-  }, '-=0.2')
-  .from('.copyright, .footer-credit, .back-to-top', {
-    opacity: 0,
-    y: 20,
-    stagger: 0.1,
-    duration: 0.5,
-    ease: 'power2.out'
-  }, '-=0.3')
-})
+    .from(
+      ".links-column",
+      {
+        opacity: 0,
+        y: 30,
+        stagger: 0.15,
+        duration: 0.6,
+        ease: "power2.out",
+      },
+      "-=0.4",
+    )
+    .from(
+      ".footer-divider",
+      {
+        width: 0,
+        duration: 0.8,
+        ease: "power2.out",
+      },
+      "-=0.2",
+    )
+    .from(
+      ".copyright, .footer-credit, .back-to-top",
+      {
+        opacity: 0,
+        y: 20,
+        stagger: 0.1,
+        duration: 0.5,
+        ease: "power2.out",
+      },
+      "-=0.3",
+    );
+});
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
