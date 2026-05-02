@@ -45,7 +45,7 @@
         <div class="about-stats">
           <div class="stat">
             <div class="stat-number">
-              <span class="counter" data-count="10">0</span>
+              <span class="counter" data-count="15">0</span>
               <span>+</span>
             </div>
             <div class="stat-label">Years Experience</div>
