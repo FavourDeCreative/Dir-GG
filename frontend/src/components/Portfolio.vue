@@ -178,6 +178,7 @@ const moviesData = ref([
 
 // Music Videos Data
 const musicData = ref([
+  { title: "Jonny Drille, Ayra Starr & Young John - COLORADO", url: "https://www.youtube.com/watch?v=MS7I2kVp0bw", type: "Music Video" },
   { title: "SKIBII - DATS HOW STARZ DO", url: "https://www.youtube.com/watch?v=ASM6AfzXMvc", type: "Music Video" },
   { title: "SPYRO - WHO IS YOUR GUY", url: "https://youtu.be/OHnXY9F7m9c", type: "Music Video" },
   { title: "DJ NEPTUNE & SPYRO - COUNT YOUR BLESSINGS", url: "https://youtu.be/QRtaKaUkq_k?si=Se6df5UoCadFSijo", type: "Music Video" },

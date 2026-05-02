@@ -869,6 +869,12 @@ section{
   
 }
 
+.footer-container .footer-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Mobile Small */
 @media (max-width: 480px) {
   section {
