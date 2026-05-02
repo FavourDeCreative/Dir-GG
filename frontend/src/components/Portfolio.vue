@@ -178,7 +178,10 @@ const moviesData = ref([
 
 // Music Videos Data
 const musicData = ref([
-  { title: "Jonny Drille, Ayra Starr & Young John - COLORADO", url: "https://www.youtube.com/watch?v=MS7I2kVp0bw", type: "Music Video" },
+  { title: "Lovn - Available", url: "https://youtu.be/mykmLypzXCM?si=VHvswvs5cF_zBJfL", type: "Music Video" },
+  { title: "Magixx - Unlimited", url: "https://youtu.be/1YbAaClfWtk?si=IbrDVDF3vzuwZ8NG", type: "Music Video" },
+  { title: "Jonny Drille, Ayra Starr & Young John - COLORADO", url: "https://youtu.be/MS7I2kVp0bw?si=lKH1OWlP3ec5ALGP", type: "Music Video" },
+  { title: "Magixx - Everyday", url: "https://youtu.be/dKa6F34VtLM?si=3B6WxWOByTh33aFh", type: "Music Video" },
   { title: "SKIBII - DATS HOW STARZ DO", url: "https://www.youtube.com/watch?v=ASM6AfzXMvc", type: "Music Video" },
   { title: "SPYRO - WHO IS YOUR GUY", url: "https://youtu.be/OHnXY9F7m9c", type: "Music Video" },
   { title: "DJ NEPTUNE & SPYRO - COUNT YOUR BLESSINGS", url: "https://youtu.be/QRtaKaUkq_k?si=Se6df5UoCadFSijo", type: "Music Video" },
