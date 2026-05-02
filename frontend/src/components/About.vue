@@ -10,7 +10,7 @@
         <div class="image-border bottom-right"></div>
         
         <div class="about-image">
-          <img src="../assets/about.JPG" alt="Cinematographer" />
+          <img src="../assets/about.jpg" alt="Cinematographer" />
         </div>
       </div>
 

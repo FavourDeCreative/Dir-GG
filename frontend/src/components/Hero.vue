@@ -51,7 +51,7 @@
 import { onMounted } from 'vue'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import heroImage from '../assets/hero.JPG'
+import heroImage from '../assets/hero.jpg'
 
 gsap.registerPlugin(ScrollTrigger)
 
